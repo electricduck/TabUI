@@ -91,3 +91,7 @@ tab-sidebar.tab-active {
 tab-under {
     display: block;
 }
+
+.clear {
+    clear: both;
+}
