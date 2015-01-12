@@ -12,3 +12,10 @@
      Source: https://github.com/electricduck/TabUI
      
 */
+
+$(document).ready(function ()
+{
+    $("#tab-btn-1").addClass("tab-active");
+    $("#tab-content-1").addClass("tab-active");
+    $("#tab-sidebar-1").addClass("tab-active");
+});
