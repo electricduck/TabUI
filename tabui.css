@@ -53,12 +53,16 @@ tab-body {
 }
 
 tab-content {
-    display: block;
+    display: none;
     float: left;
     width: 70%;
     overflow: hidden;
     padding-right: 2px;
     box-sizing: border-box;
+}
+
+tab-content.tab-active {
+    display: block;   
 }
 
 tab-actions {
@@ -73,11 +77,15 @@ tab-actions > .float-right {
 }
 
 tab-sidebar {
-    display: block;
+    display: none;
     float: left;
     width: 30%;
     overflow: hidden;
     box-sizing: border-box;
+}
+
+tab-sidebar.tab-active {
+    display: block;
 }
 
 tab-under {
