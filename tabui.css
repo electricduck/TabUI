@@ -40,7 +40,7 @@ tab-btn:left-of-type {
     margin-right: 0;   
 }
 
-tab-btn.active {
+tab-btn.tab-active {
     display: inline-block;
     background-color: #121212;
     color: #E3E3E3;
