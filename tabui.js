@@ -5,6 +5,8 @@
       | |/ _` | '_ \| | | || | 
       | | (_| | |_) | |_| || | 
       |_|\__,_|_.__/ \___/|___|
+      
+    tabui.js | main javascript
 
     Version: Git
      Author: Josh Robertson
