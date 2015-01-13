@@ -62,7 +62,7 @@ tab-body {
 }
 
 tab-content {
-    display: none;
+    display: none !important;
     float: left;
     width: 70%;
     overflow: hidden;
@@ -71,7 +71,7 @@ tab-content {
 }
 
 tab-content.tab-active {
-    display: block;   
+    display: block !important;   
 }
 
 tab-actions {
@@ -86,7 +86,7 @@ tab-actions > .float-right {
 }
 
 tab-sidebar {
-    display: none;
+    display: none !important;
     float: left;
     width: 30%;
     overflow: hidden;
@@ -94,7 +94,7 @@ tab-sidebar {
 }
 
 tab-sidebar.tab-active {
-    display: block;
+    display: block !important;
 }
 
 tab-under {
